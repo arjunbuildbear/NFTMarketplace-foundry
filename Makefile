@@ -20,3 +20,6 @@ exe: install build deploy
 	@echo "All commands executed successfully."
 
 
+	
+
+
