@@ -30,8 +30,8 @@ jobs:
                 "blockNumber": 20814270
               },
               {
-                "chainId": 137,
-                "blockNumber": 63391559
+                "chainId": 10,
+                "blockNumber": 127296331
               }
             ]
           deployCmd: "make exe"
