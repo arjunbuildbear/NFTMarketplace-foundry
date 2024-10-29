@@ -14,7 +14,7 @@ build:
 
 deploy: install build
 	@echo "Deploying contract..."
-	forge script script/Counter.s.sol --rpc-url=$(BUILDBEAR_RPC_URL) --broadcast --mnemonics="$(MNEMONIC)"
+	forge script script/DeployMarket.s.sol --rpc-url=$(BUILDBEAR_RPC_URL) --broadcast --mnemonics="$(MNEMONIC)"
 
 exe: install build deploy
 	@echo "All commands executed successfully."
