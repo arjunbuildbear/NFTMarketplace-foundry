@@ -26,8 +26,7 @@ jobs:
           network: |
             [
               {
-                "chainId": 1,
-                "blockNumber": 20814270
+                "chainId": 1
               },
               {
                 "chainId": 10
