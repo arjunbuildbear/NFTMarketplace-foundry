@@ -33,4 +33,4 @@ jobs:
             ]
           deploy-command: "make exe"
           buildbear-token: "BB"
-          slack-webhook-url: "https://hooks.slack.com/services/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"
+          slack-webhook-url: "https://hooks.slack.com/services/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"
