@@ -21,7 +21,7 @@ jobs:
         run: forge --version
 
       - name: bb_action_ci
-        uses: arjunbuildbear/test2@32
+        uses: arjunbuildbear/test2@33
             
         with: 
           network: |
@@ -33,3 +33,4 @@ jobs:
             ]
           deploy-command: "make exe"
           buildbear-token: "BB"
+          slack-webhook-url: "https://hooks.slack.com/services/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"
