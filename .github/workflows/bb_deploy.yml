@@ -31,7 +31,7 @@ jobs:
                 "blockNumber": 10000
               },
               {
-                "chainId": 137,
+                "chainId": 137
               }
             ]
           deploy-command: "make exe"
