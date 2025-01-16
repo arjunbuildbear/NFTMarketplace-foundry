@@ -17,7 +17,7 @@ deploy: install build
 	forge script script/DeployMarket.s.sol --rpc-url=$(BUILDBEAR_RPC_URL) --broadcast --mnemonics="$(MNEMONIC)" --legacy --slow
 
 exe: install build deploy
-	@echo "All commands executed successfully."
+	@echo "All commands executed successfully"
 
 
 	
