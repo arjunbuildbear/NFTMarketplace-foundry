@@ -21,7 +21,7 @@ jobs:
         run: forge --version
 
       - name: bb_ci
-        uses: BuildBearLabs/buildbear_x_action@v1.4.0
+        uses: BuildBearLabs/buildbear_x_action@v1.4.1
             
         with: 
           network: |
