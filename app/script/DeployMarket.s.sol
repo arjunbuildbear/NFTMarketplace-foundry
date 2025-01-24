@@ -12,7 +12,7 @@ contract DeployMarket is Script {
 
 
         // Deploy NFTMarket
-        NFTMarket nftMarket = new NFTMarket(address(moonToken));
+        NFTMarket nftMarket = new NFTMarket();
         console.log("NFTMarket deployed to:", address(nftMarket));
 
 
