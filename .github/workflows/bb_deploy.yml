@@ -35,6 +35,6 @@ jobs:
               }
             ]
           deploy-command: "make exe"
-          buildbear-token: "BB"
+          buildbear-token: "a"
           working-directory: "app"  
          
