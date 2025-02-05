@@ -22,7 +22,7 @@ jobs:
 
         
       - name: test_ci
-        uses: arjunbuildbear/test2@46
+        uses: arjunbuildbear/test2@47
             
         with: 
           network: |
