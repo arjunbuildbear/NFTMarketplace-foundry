@@ -11,18 +11,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-
-      - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1
-        with:
-          version: nightly
-
-      - name: Show Forge version
-        run: forge --version
-
         
       - name: test_ci
-        uses: arjunbuildbear/test2@56
+        uses: arjunbuildbear/test2@main
         
       
             
