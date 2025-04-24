@@ -13,9 +13,7 @@ jobs:
           submodules: recursive
         
       - name: test_ci
-        uses: arjunbuildbear/test2@main
-        
-      
+        uses: arjunbuildbear/buildbear_x_action@main
             
         with: 
           network: |
